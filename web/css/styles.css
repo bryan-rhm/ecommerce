@@ -1,0 +1,234 @@
+
+
+
+hr {
+    border: 0;
+    background-color: #333;
+    height: 1px;
+    margin: 0 25px;
+    width: 300px;
+}
+
+table {
+    margin: 0 20px;
+    border-spacing: 0;
+    text-align: center;
+    border: solid 1px #f5eabe;
+}
+
+
+/* general styles */
+
+
+#singleColumn {
+    margin: 20px 30px;
+    text-align: left;
+}
+
+.lightBlue { background-color: #edf8f7 }
+
+.white { background-color: #fff }
+
+.bubble {
+    font-weight: bold;
+    background-color: #f5eabe;
+    padding: 5px;
+    color: inherit;
+}
+
+.hMargin { margin: 0 30px }
+
+.smallText { font-size: small }
+
+.header {
+    background-color: #c3e3e0;
+    height: 30px;
+}
+
+
+/* styles for elements contained in the header, i.e.,
+   shopping cart widget, language toggle, and logo */
+
+
+
+
+
+/* index page styles */
+#main {
+    max-height: 730px;
+    
+}
+
+#indexLeftColumn {
+    top: 70px;
+    height: 100%;
+    width: 34%;
+    float: left;
+    margin-left: 5px;
+    background: #d3ede8;
+    position: relative;
+    padding: 5px;
+}
+
+#indexRightColumn {
+    top: 70px;
+    height: 100%;
+    width: 64%;
+    float: right;
+    position: relative;
+    padding: 5px;
+    background: #eee;
+}
+
+.categoryBox {
+    height: 200px;
+    width: 47%;
+    float: inherit;
+    background: #fff;
+    padding: 15px;
+    margin: 5px;
+}
+.categoryBox img {
+    width:64%;
+    height:100%;
+}
+
+.categoryLabelText {
+    line-height: 100%;
+    font-size: large;
+}
+
+
+/* category page styles */
+#categoryLeftColumn {
+    width: 185px;
+    float: left;
+    margin-top: 110px;
+    padding: 5px;
+}
+
+#categoryRightColumn {
+    margin-top: 100px;
+    width: 650px;
+    float: left;
+    padding: 5px;
+}
+
+.categoryButton {
+    margin: 15px 22px;
+    padding: 13px;
+    display: block;
+    background-color: #d3ede8;
+}
+
+#selectedCategory {
+    background-color: #b2d2d2;
+    margin-left: 10px;
+    width: 139px;
+}
+
+#categoryTitle {
+    margin: -34px 180px 0 0;
+    font-size: x-large;
+    float: right;
+    background-color: #f5eabe;
+    padding: 7px;
+}
+
+.categoryText {
+    line-height: 25px;
+    font-size: large;
+}
+
+#productTable { width: 600px }
+#productTable img {
+    max-width: 60px;
+}
+
+#productTable tr { height: 90px }
+#productTable td { width: 145px }
+
+/* cart page styles */
+#actionBar {
+    margin: 30px;
+    width: 750px;
+    text-align: center;
+}
+
+#subtotal { margin: 40px 0 20px 430px }
+
+#cartTable { width: 750px }
+
+#cartTable td {
+    width: 145px;
+    height: 90px;
+}
+
+/* checkout page styles */
+#checkoutTable {
+    width: 360px;
+    background-color: #f5eabe;
+    float: left;
+    height: 280px;
+}
+#checkoutTable input {
+    width:90%;
+}
+
+#infoBox {
+    width: 300px;
+    padding-left: 30px;
+    float: left;
+}
+
+#priceBox {
+    padding: 10px;
+    margin: 10px 0;
+    height: 150px;
+    background-color: #c3e3e0;
+    width: 100%;
+}
+
+
+/* confirmation page styles */
+#confirmationText {
+    margin: 0 20px 20px;
+    padding: 10px;
+    background-color: #f5eabe;
+    float: left;
+    width:540px;
+}
+
+.summaryColumn {
+    margin-top: 15px;
+    width: 100%;
+    float: left;
+}
+
+#orderSummaryTable {
+    width: 100%;
+    text-align: left;
+    height: 200px;
+}
+
+#deliveryAddressTable {
+    width: 70%;
+    margin-left: 15%;
+    text-align: left;
+    height: 200px;
+}
+
+
+
+/***/
+        footer {
+            background-color:#EEE;
+            border-top: 10px solid #BBB;
+            font-size: 14px;
+            padding: 20px;
+            text-align: center;
+        }
+        #cartTable td img {
+            width:50px;
+        }
+
